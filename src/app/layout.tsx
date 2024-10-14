@@ -1,11 +1,11 @@
-<<<<<<< HEAD
-=======
+
 "use client"
 import Sidebar from './component/sidebar';
 
 import "./globals.css"
 import axios from '@/lib/axios';
 import Header from './component/header/Header';
+import GrooveChartPage from './grovoochart/page';
 
 export default function Layout({ children }: any) {
 
@@ -32,10 +32,11 @@ export default function Layout({ children }: any) {
         <div className="container">
             <Sidebar />
             <Header/>
+            {children}
         </div>
       </body>
     </html>
 
   );
 }
->>>>>>> 64f0ae63ea92df6a9f4c07c871c6f2434ffdb387
+

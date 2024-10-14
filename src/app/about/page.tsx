@@ -3,7 +3,8 @@ export default function HomePage() {
         <div className="home-page">
             <div className="main-layout">
                 <div className="content-wrapper">
-                    about
+                    scwskjdgwedkudgwedklwdjwnbd
+                    
                 </div>
             </div>
         </div>
